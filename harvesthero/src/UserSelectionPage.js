@@ -7,14 +7,15 @@ function UserSelectionPage() {
 
   const handleUserSelect = (userType) => {
     switch(userType) {
-      case 'volunteer':
+      /*case 'volunteer':
         navigate('/donation-request');
         break;
+      */
       case 'foodbank':
-        navigate('/donation-request');
+        navigate('/restaurant-donation-form');
         break;
       case 'restaurant':
-        navigate('/restaurant-donation-form');
+        navigate('/restaurant');
         break;
       default:
         console.log('Invalid user type:', userType);
@@ -51,7 +52,6 @@ function UserSelectionPage() {
   return (
     <div>
       <h2>Select User Type</h2>
-      <button onClick={() => handleUserSelect('volunteer')}>Login as Volunteer</button>
       <button onClick={() => handleUserSelect('foodbank')}>Login as Foodbank</button>
       <button onClick={() => handleUserSelect('restaurant')}>Login as Restaurant/Grocery Store</button>
       

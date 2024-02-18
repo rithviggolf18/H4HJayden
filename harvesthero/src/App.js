@@ -5,7 +5,8 @@ import Login from './Login';
 import UserSelectionPage from './UserSelectionPage';
 import Sidebar from './Sidebar';
 import DonationRequest from './DonationRequest';
-import RestaurantDonationForm from './RestaurantDonationForm';
+import RestaurantDonationForm from './RestaurantDonationForm.js';
+import Restaurant from './Restaurant';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -54,6 +55,7 @@ function App() {
           />
           <Route path="/donation-request" element={<DonationRequest />} />
           <Route path="/restaurant-donation-form" element={<RestaurantDonationForm />} />
+          <Route path="/restaurant" element={<Restaurant/>} />
           <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
       </Router>
