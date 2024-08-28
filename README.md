@@ -7,7 +7,7 @@ Welcome to our Food Waste Prevention App called HarvestHero! This web applicatio
 - **Restaurant Listings**: Restaurants can easily list surplus food items they are willing to donate.
 - **Food Bank Search**: Individuals at food banks can search for specific food items they need.
 - **Intelligent Matching**: Our platform matches food donors with food recipients based on their preferences and proximity.
-- **Firebase Integration**: Utilizing Firebase Firestore for seamless data storage and management.
+- **Firebase Integration**: Utilizing Firebase Firestore for seamless data storage and management. 
 - **User-Friendly Interface**: Developed with React.js, CSS, JavaScript, and HTML for an intuitive user experience.
 - **Interactive Map**: Integrates Leaflet.js map with Yelp APIs to visualize restaurant locations and provide additional information.
 
